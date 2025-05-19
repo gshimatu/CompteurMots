@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compteur de mots & caractères</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1><i class="fas fa-pen-nib"></i> Compteur de Mots & Caractères</h1>
+        <div class="input-area">
+            <i class="fas fa-keyboard input-icon"></i>
+            <textarea id="text-input" placeholder="Écrivez votre texte ici..."></textarea>
+        </div>
+        <div class="counters">
+            <div class="counter-box">
+                <div class="counter-label"><i class="fas fa-book-open"></i> Mots</div>
+                <div id="word-count" class="counter-value">0</div>
+            </div>
+            <div class="counter-box">
+                <div class="counter-label"><i class="fas fa-font"></i> Caractères</div>
+                <div id="char-count" class="counter-value">0</div>
+            </div>
+        </div>
+        <div class="extra-counters">
+            <div class="extra-counter">
+                <span><i class="fas fa-paragraph"></i> Paragraphes :</span>
+                <span id="para-count">0</span>
+            </div>
+            <div class="extra-counter">
+                <span><i class="fas fa-quote-right"></i> Phrases :</span>
+                <span id="sentence-count">0</span>
+            </div>
+            <div class="extra-counter">
+                <span><i class="fas fa-text-width"></i> Caractères (sans espaces) :</span>
+                <span id="char-nospace-count">0</span>
+            </div>
+            <div class="extra-counter">
+                <span><i class="fas fa-clock"></i> Temps de lecture :</span>
+                <span id="reading-time">0 sec</span>
+            </div>
+            <div class="extra-counter">
+                <span><i class="fas fa-fire"></i> Top mots-clés :</span>
+                <span id="keywords-density">-</span>
+            </div>
+        </div>
+        <div class="action-buttons">
+            <button id="clear-btn"><i class="fas fa-eraser"></i> Effacer</button>
+            <button id="copy-btn"><i class="fas fa-copy"></i> Copier</button>
+        </div>
+    </div>
+    <footer>
+        <p>
+            <img src="logo.png" alt="Logo Gauthier Shimatu" class="footer-logo">
+            Par Gauthier Shimatu (Le Shimatologue)
+        </p>
+    </footer>
+
+    <script src="scrpit.js"></script>
+    
+</body>
+
+</html>
