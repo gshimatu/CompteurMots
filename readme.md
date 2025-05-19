@@ -17,7 +17,7 @@ Ce compteur de texte offre les fonctionnalités suivantes :
 * **Bouton Effacer** : Permet de videz rapidement la zon de texte pour une nouvelle analyse
 
 ## 3. Démo en live
-Je n'ai pas encore hebergé cela, mais quand ça le saura je mettrais mon lien ici
+aller voir sur ce lien : https://compteur-des-mots-kqhsw.kinsta.page/
 
 ## 4. Technologies utilisées
 * **HTML5** : Pour la strcture de la page web
