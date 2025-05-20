@@ -2,7 +2,7 @@
 
 ## 1. Définition du projet
 Mon mini projet est un outil web simple et élégant pour analyser vos textes en temps réel. 
-Comptez les mots, les caractères, les phrases, les paragraphes, estimez le temps de lecture et identifiez les mots-clés principaux.
+Compter les mots, les caractères, les phrases, les paragraphes, estimez le temps de lecture et identifiez les mots-clés principaux.
 
 ## 2. Fonctionnalités
 Ce compteur de texte offre les fonctionnalités suivantes : 
